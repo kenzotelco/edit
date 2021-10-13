@@ -24,7 +24,7 @@ NC='\e[0m'
 
 MYIP=$(wget -qO- icanhazip.com);
 
-IZIN=$( curl https://raw.githubusercontent.com/ADITYAH2/halucok/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/kenzotelco/autoscript/main/ipvps.conf | grep $MYIP )
 
 if [ $MYIP = $IZIN ]; then
 
